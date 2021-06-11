@@ -1,0 +1,81 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?6d8ce75b280412e5fa696d40ddf85470") format("truetype"),
+url("./flaticon.woff?6d8ce75b280412e5fa696d40ddf85470") format("woff"),
+url("./flaticon.woff2?6d8ce75b280412e5fa696d40ddf85470") format("woff2"),
+url("./flaticon.eot?6d8ce75b280412e5fa696d40ddf85470#iefix") format("embedded-opentype"),
+url("./flaticon.svg?6d8ce75b280412e5fa696d40ddf85470#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "web-maintenance": "\f101",
+    "manager": "\f102",
+    "java": "\f103",
+    "html": "\f104",
+    "css-3": "\f105",
+    "python-language-logotype": "\f106",
+    "cpp-file-format-symbol": "\f107",
+    "angular-mountain": "\f108",
+    "physics": "\f109",
+    "sql-server": "\f10a",
+    "database-storage": "\f10b",
+    "azure": "\f10c",
+    "cloud": "\f10d",
+    "cloud-network": "\f10e",
+);
+
+.flaticon-web-maintenance:before {
+    content: map-get($flaticon-map, "web-maintenance");
+}
+.flaticon-manager:before {
+    content: map-get($flaticon-map, "manager");
+}
+.flaticon-java:before {
+    content: map-get($flaticon-map, "java");
+}
+.flaticon-html:before {
+    content: map-get($flaticon-map, "html");
+}
+.flaticon-css-3:before {
+    content: map-get($flaticon-map, "css-3");
+}
+.flaticon-python-language-logotype:before {
+    content: map-get($flaticon-map, "python-language-logotype");
+}
+.flaticon-cpp-file-format-symbol:before {
+    content: map-get($flaticon-map, "cpp-file-format-symbol");
+}
+.flaticon-angular-mountain:before {
+    content: map-get($flaticon-map, "angular-mountain");
+}
+.flaticon-physics:before {
+    content: map-get($flaticon-map, "physics");
+}
+.flaticon-sql-server:before {
+    content: map-get($flaticon-map, "sql-server");
+}
+.flaticon-database-storage:before {
+    content: map-get($flaticon-map, "database-storage");
+}
+.flaticon-azure:before {
+    content: map-get($flaticon-map, "azure");
+}
+.flaticon-cloud:before {
+    content: map-get($flaticon-map, "cloud");
+}
+.flaticon-cloud-network:before {
+    content: map-get($flaticon-map, "cloud-network");
+}
