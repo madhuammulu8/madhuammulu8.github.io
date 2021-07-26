@@ -5,7 +5,9 @@
 header nav a.home-btn, .estate figure .imgout .price, .site-btn, .timeline li:first-child i, nav ul li a:after, .owl-theme .owl-controls .owl-page span, .skill-list .progress .percentage, ul.profile-information li:first-child:before{
     background: #ffc500 !important;
 }
-
+.site-temp{
+    background-color: aquamarine;
+}
 header nav ul li a:hover, .events ul li .datenlocation span, .namenprice .price, .cbp-filter-item-active, .portfolio-content p span, #blog-post .blog-sidebar ul.category-list li a:hover, #blog-post .blog-sidebar .popular-posts ul li a .info{
     color: #ffc500 !important;
 }
@@ -22,6 +24,12 @@ ul.profile-information li:before{
 
 .site-btn:hover, header nav a.home-btn:hover, .section-title span{
    background-color: #ffb100 !important;
+}
+.site-temp{
+    background-color: rgb(216, 123, 123);
+}
+.site-temp:hover{
+    background-color: #ffb100 !important;
 }
 
 /* Opacity Color*/
