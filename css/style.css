@@ -495,9 +495,14 @@ header nav{
 header nav ul li{
     float: left;
 }
+.tabs-home,
+.tab-home
+{
+float: left;
+}
 
 header nav ul li a{
-    font-size: 14px;
+    font-size: 15.5px;
     font-weight: bold;
     color: #000;
     padding: 0 10px;
@@ -520,7 +525,7 @@ header nav a.home-btn{
     border-radius: 6px 0 0 6px;
     -webkit-border-radius: 6px 0 0 6px;
     -moz-border-radius: 6px 0 0 6px;
-    padding: 0px 24px;
+    padding: 0px 18px;
     float: left;
     height: 70px;
     line-height: 70px;
@@ -551,7 +556,14 @@ header nav .site-btn{
     height: 18px;
     display: inline-block;
 }
-
+.social-icons-foot a {
+    color: rgb(243, 241, 241);
+    font-size: 12px;
+    transition: all ease 0.2s;
+    width: 24px;
+    height: 18px;
+    display: inline-block;
+}
 
 .social-icons a:hover {
     font-size: 14px;
@@ -769,7 +781,7 @@ ul.timeline{
 
 
 #portfolio .cbp-item{
-    padding: 10px !important;
+    padding: 20px !important;
 }
 
 #portfolio section {
@@ -1882,7 +1894,12 @@ img {
 
 
 
-
+.about-img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
