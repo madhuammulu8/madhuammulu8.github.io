@@ -785,8 +785,8 @@ ul.timeline{
 }
 
 #portfolio section {
-    padding-left: 15px !important;
-    padding-right: 15px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
 }
 
 #portfolio .cbp-item-wrapper {
@@ -992,7 +992,7 @@ ul.timeline{
 /*------------------------ 7 Blog Section ------------------------*/
 
 #blog .cbp-item{
-    padding: 15px !important;
+    padding: 0px !important;
 }
 
 #blog section {
