@@ -3,9 +3,8 @@
 /*---------------------------------- */
 
 /**
-	Mat - vCard Template
 	Author : Tavonline
-	Copyright 2017
+	connect-with-me 2017
 
 /* Table of Content
 ==================================================
@@ -1352,27 +1351,25 @@ footer .footer{
     -moz-border-radius: 8px;
     line-height: 72px;
 }
-
 footer .footer .name{
     color: #fff;
     font-size: 15px;
 }
 
-footer .footer .copyright{
-    color: #9c9c9c;
-    font-size: 12px;
-    text-align: right;
+footer .footer .connect-with-me{
+    color: #f8f2f2;
+    font-size: 15px;
+    text-align: center;
 }
 
-footer .footer .copyright a{
+footer .footer .connect-with-me a{
     color: #fff;
 }
 
-footer .footer .copyright a:hover{
+footer .footer .connect-with-me a:hover{
     color: #dfdfdf;
     transition: all ease 0.3s;
 }
-
 
 /*------------------------ 11 Realtor Portfolio ------------------------*/
 
@@ -1568,7 +1565,7 @@ footer .footer .copyright a:hover{
 
 
 /*------------------------ 14 Pricing ------------------------*/
-
+/* 
 .mat-price{
     padding-bottom: 30px;
 }
@@ -1606,7 +1603,7 @@ footer .footer .copyright a:hover{
     font-size: 24px;
     font-weight: 600;
     padding:18px 0 15px;  
-}
+} */
 
 
 /*------------------------ 15 Events Widget ------------------------*/
@@ -1694,7 +1691,7 @@ footer .footer .copyright a:hover{
 /*------------------------ 17 Responsive ------------------------*/
 
 @media (max-width: 1199px) {
-    footer .footer .copyright{
+    footer .footer .connect-with-me{
         text-align: center;
     }
 }
@@ -1732,7 +1729,7 @@ footer .footer .copyright a:hover{
         padding-bottom: 30px;
     }
 
-    footer .footer .copyright{
+    footer .footer .connect-with-me{
         text-align: center;
     }
 
@@ -1884,6 +1881,32 @@ footer .footer .copyright a:hover{
 
 
 }
+
+@media (min-width: 100px) {
+
+    .social-icons{
+        display: contents;
+    }
+
+    header nav .hamburger{
+        border: 0;
+    }
+
+    footer .footer {
+    line-height: 0px;
+    padding-top: 2px;
+    }
+
+    .timeline li .line-title {
+        line-height: 20px;
+    }
+    .connect-with-me
+    {
+        /* display: contents; */
+       align-items: center; 
+    }    
+
+}
 img {
     width:100%;
     height:auto;
@@ -1900,7 +1923,6 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
-
 
 
 
