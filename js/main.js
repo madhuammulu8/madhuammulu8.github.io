@@ -139,31 +139,31 @@ $(document).ready(function () {
     }); 
 
     // GALLERY WIDGET  
-    $('#widget-gallery').cubeportfolio({
-        layoutMode: 'grid',
-        gridAdjustment: 'responsive',
-        gapVertical: 0,
-        gapHorizontal: 0,
-        mediaQueries: [{
-                width: 700,
-                cols: 4,
-            }, {
-                width: 480,
-                cols: 2,
-                options: {
-                    caption: '',
-                    gapHorizontal: 30,
-                    gapVertical: 20,
-                }
-            }, {
-                width: 320,
-                cols: 1,
-                options: {
-                    caption: '',
-                    gapHorizontal: 50,
-                }
-            }]
-    }); 
+    // $('#widget-gallery').cubeportfolio({
+    //     layoutMode: 'grid',
+    //     gridAdjustment: 'responsive',
+    //     gapVertical: 0,
+    //     gapHorizontal: 0,
+    //     mediaQueries: [{
+    //             width: 700,
+    //             cols: 4,
+    //         }, {
+    //             width: 480,
+    //             cols: 2,
+    //             options: {
+    //                 caption: '',
+    //                 gapHorizontal: 30,
+    //                 gapVertical: 20,
+    //             }
+    //         }, {
+    //             width: 320,
+    //             cols: 1,
+    //             options: {
+    //                 caption: '',
+    //                 gapHorizontal: 50,
+    //             }
+    //         }]
+    // }); 
 
 }); // document ready end 
 
