@@ -38,20 +38,6 @@ $(document).ready(function () {
         $('.menuin').slideUp();  
     });
 
-    // OWL CAROUSEL GENERAL JS
-    // if ($('.owl-carousel').length) {
-    //     $('.owl-carousel').each(function () {
-    //         $(this).owlCarousel({
-    //             items: $(this).data('items') ? $(this).data('items') : 3
-    //             , autoPlay: $(this).data('autoplay') ? $(this).data('autoplay') : 2500
-    //             , pagination: $(this).data('pagination') ? $(this).data('pagination') : false
-    //             , itemsDesktop: [1199, 3]
-    //             , itemsDesktopSmall: [979, 3]
-    //         });
-    //     });
-    // }
-
-    // PORTFOLIO CONTENT  
     $('#grid-container').cubeportfolio({
         layoutMode: 'grid',
         filters: '#filters-container',
@@ -80,21 +66,6 @@ $(document).ready(function () {
                     gapHorizontal: 50,
                 }
             }],            
-        // singlePageCallback: function (url, element) {
-        //     var t = this;
-        //     $.ajax({
-        //             url: url,
-        //             type: 'GET',
-        //             dataType: 'html',
-        //             timeout: 30000
-        //         })
-        //         .done(function (result) {
-        //             t.updateSinglePage(result);
-        //         })
-        //         .fail(function () {
-        //             t.updateSinglePage('AJAX Error! Please refresh the page!');
-        //         });
-        // },
             plugins: {
                 loadMore: {
                     element: '#js-loadMore-agency',
@@ -137,33 +108,7 @@ $(document).ready(function () {
                 }
             }
     }); 
-
-    // GALLERY WIDGET  
-    // $('#widget-gallery').cubeportfolio({
-    //     layoutMode: 'grid',
-    //     gridAdjustment: 'responsive',
-    //     gapVertical: 0,
-    //     gapHorizontal: 0,
-    //     mediaQueries: [{
-    //             width: 700,
-    //             cols: 4,
-    //         }, {
-    //             width: 480,
-    //             cols: 2,
-    //             options: {
-    //                 caption: '',
-    //                 gapHorizontal: 30,
-    //                 gapVertical: 20,
-    //             }
-    //         }, {
-    //             width: 320,
-    //             cols: 1,
-    //             options: {
-    //                 caption: '',
-    //                 gapHorizontal: 50,
-    //             }
-    //         }]
-    // }); 
+ 
 
 }); // document ready end 
 
@@ -175,14 +120,5 @@ $(window).load(function () {
 
 
 
-}); // window load end 
-
-
-
-
-
-
-
-
-
+}); 
 
